@@ -1,0 +1,20 @@
+.ELContainer {
+  padding: 20px;
+  width: 60%;
+  background-color: white;
+  border: 1px solid black;
+  margin: 30px auto 0;
+}
+
+.ELHead {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ELSingle {
+  margin-bottom: 15px;
+
+  & h3 {
+    color: green;
+  }
+}

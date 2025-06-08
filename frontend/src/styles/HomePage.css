@@ -1,0 +1,29 @@
+.HPContainer {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.HPBtn {
+  display: flex;
+  gap: 20px;
+  color: green;
+
+  & p {
+    cursor: pointer;
+  }
+}
+
+.btnLogOut {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  background-color: red;
+  padding: 8px;
+}

@@ -1,0 +1,25 @@
+.container {
+  margin: 50px auto 0;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  align-items: center;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.registerRe {
+  background-color: green;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.loginLink {
+  color: green;
+  text-decoration: underline;
+  cursor: pointer;
+}
